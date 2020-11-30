@@ -94,7 +94,7 @@ class FileUrl:
 
     @property
     def file_url(self):
-        auth = oss2.Auth('LTAI4GBETYkBAZjC6Sxm76Fv', 'bsXVKDS75BLwOD0JGleXna6KVFhxjn')
+        auth = oss2.Auth('', '')
         bucket = oss2.Bucket(
             auth,
             'oss-cn-beijing.aliyuncs.com',
